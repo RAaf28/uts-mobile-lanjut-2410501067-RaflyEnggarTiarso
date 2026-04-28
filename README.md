@@ -84,8 +84,8 @@ API
 https://www.tvmaze.com/api
 https://api.tvmaze.com/shows
 https://api.tvmaze.com/shows/:id
-
 https://api.tvmaze.com/search/shows?q=:query
+
 React Native
 https://reactnative.dev/docs/getting-started
 https://reactnative.dev/docs/flatlist
@@ -95,12 +95,14 @@ https://reactnative.dev/docs/touchableopacity
 https://reactnative.dev/docs/stylesheet
 https://reactnative.dev/docs/activityindicator
 https://react.dev/reference/react/useState
+
 Expo
 https://docs.expo.dev/
 https://expo.dev/go
 https://docs.expo.dev/versions/latest/sdk/status-bar/
 https://docs.expo.dev/guides/icons/
 https://docs.expo.dev/get-started/set-up-your-environment/
+
 React Navigation
 https://reactnavigation.org/docs/getting-started
 https://reactnavigation.org/docs/bottom-tab-navigator
@@ -111,20 +113,24 @@ https://reactnavigation.org/docs/navigation-container
 https://www.npmjs.com/package/@react-navigation/native
 https://www.npmjs.com/package/@react-navigation/bottom-tabs
 https://www.npmjs.com/package/@react-navigation/native-stack
+
 Zustand
 https://zustand.docs.pmnd.rs/
 https://zustand.docs.pmnd.rs/getting-started/introduction
 https://zustand.docs.pmnd.rs/apis/create
 https://zustand.docs.pmnd.rs/guides/react-native
 https://www.npmjs.com/package/zustand
+
 Dependencies lain
 https://docs.expo.dev/versions/latest/sdk/safe-area-context/
 https://github.com/software-mansion/react-native-screens
 https://docs.swmansion.com/react-native-gesture-handler/
+
 Fetch API
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+
 Tutorial umum
 https://www.reactnative.express/
 https://docs.expo.dev/tutorial/introduction/
