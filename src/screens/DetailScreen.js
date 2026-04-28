@@ -10,6 +10,7 @@ import {
 import { useState, useEffect } from "react";
 import useFavoritesStore from "../store/favoritesStore";
 import colors from "../constants/colors";
+import { fetchShowDetail } from "../services/api";
 
 export default function DetailScreen({ route }) {
   const { showId } = route.params;
@@ -24,9 +25,8 @@ export default function DetailScreen({ route }) {
 
   const fetchDetail = async () => {
     try {
-      const response = await fetch(`https://api.tvmaze.com/shows/${showId}`);
-      const json = await response.json();
-      setShow(json);
+      const data = await fetchShowDetail(showId);
+      setShow(data);
     } catch (err) {
       setError("Gagal mengambil data, cek internet nya!");
     } finally {

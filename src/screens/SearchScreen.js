@@ -10,6 +10,7 @@ import {
   StyleSheet,
 } from "react-native";
 import colors from "../constants/colors";
+import { searchShows } from "../services/api";
 
 export default function SearchScreen({ navigation }) {
   const [query, setQuery] = useState("");
@@ -31,10 +32,7 @@ export default function SearchScreen({ navigation }) {
     setError(null);
     setLoading(true);
     try {
-      const response = await fetch(
-        `https://api.tvmaze.com/search/shows?q=${query}`,
-      );
-      const json = await response.json();
+      const json = await searchShows(query);
       setResults(json);
     } catch (err) {
       setError("Gagal mencari data, cek internet kamu!");

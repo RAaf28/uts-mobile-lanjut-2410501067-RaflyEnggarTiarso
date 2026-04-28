@@ -9,6 +9,7 @@ import {
   StyleSheet,
 } from "react-native";
 import colors from "../constants/colors";
+import { fetchAllShows } from "../services/api";
 
 export default function HomeScreen({ navigation }) {
   const [data, setData] = useState([]);
@@ -18,9 +19,8 @@ export default function HomeScreen({ navigation }) {
 
   const fetchShows = async () => {
     try {
-      const response = await fetch("https://api.tvmaze.com/shows");
-      const json = await response.json();
-      setData(json);
+      const data = await fetchAllShows();
+      setData(data);
     } catch (err) {
       setError("Gagal mengambil data, cek internet nya!");
     } finally {

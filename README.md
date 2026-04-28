@@ -60,7 +60,7 @@ Scan QR code menggunakan Expo Go di Android atau iOS.
 
 ## Video Demo
 
-## To be added soon
+https://drive.google.com/file/d/1aiFD7aaUHV7nhCSvytFFTfKCWrVOx-Sr/view?usp=sharing
 
 ## State Management - Zustand
 
