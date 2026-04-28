@@ -1,6 +1,7 @@
 # MovieDex - Katalog Film & Series
 
 ## Identitas
+
 - **Nama:** Rafly Enggar Tiarso
 - **NIM:** 2410501067
 - **Kelas:** B
@@ -9,23 +10,26 @@
 ---
 
 ## Tema yang Dipilih
+
 MovieDex - Katalog Film & Series menggunakan TVMaze API
 
 ---
 
 ## Tech Stack
-| Teknologi | Versi |
-|-----------|-------|
-| React Native | 0.81.5 |
-| Expo SDK | ~54.0.33 |
-| @react-navigation/native | ^7.2.2 |
+
+| Teknologi                      | Versi    |
+| ------------------------------ | -------- |
+| React Native                   | 0.81.5   |
+| Expo SDK                       | ~54.0.33 |
+| @react-navigation/native       | ^7.2.2   |
 | @react-navigation/native-stack | ^7.14.11 |
-| @react-navigation/bottom-tabs | ^7.15.9 |
-| Zustand | ^5.0.12 |
+| @react-navigation/bottom-tabs  | ^7.15.9  |
+| Zustand                        | ^5.0.12  |
 
 ---
 
 ## Cara Install & Run
+
 ```bash
 # Clone repository
 git clone https://github.com/RAaf28/uts-mobile-lanjut-2410501067-RaflyEnggarTiarso.git
@@ -39,38 +43,43 @@ npm install
 # Jalankan aplikasi
 npx expo start
 ```
+
 Scan QR code menggunakan Expo Go di Android atau iOS.
 
 ---
 
-| Screen | Preview |
-|--------|---------|
-| Home | ![Home](screenshots/Home.jpeg) |
-| Detail | ![Detail](screenshots/Detail.jpeg) |
+| Screen    | Preview                                  |
+| --------- | ---------------------------------------- |
+| Home      | ![Home](screenshots/Home.jpeg)           |
+| Detail    | ![Detail](screenshots/Detail.jpeg)       |
 | Favorites | ![Favorites](screenshots/Favorites.jpeg) |
-| Search | ![Search](screenshots/Search.jpeg) |
-| About | ![About](screenshots/About.jpeg) |
+| Search    | ![Search](screenshots/Search.jpeg)       |
+| About     | ![About](screenshots/About.jpeg)         |
 
 ---
 
 ## Video Demo
-[ISI LINK YOUTUBE/GOOGLE DRIVE DI SINI]
 
----
+## To be added soon
 
 ## State Management - Zustand
+
 ### Kenapa Zustand?
-Setelah membandingkan kompleksitas juga fitur dari ke-3 state management saya melihat kalau zustand memiliki karakteristik yang ada diantara context API dan Redux, dimana zustand memiliki fitur quality of life yang membuat state management menjadi lebih mudah dan tidak redundan disaat bersamaan tidak memerlukan setup terlalu kompleks seperti redux dimana bisa menjadi overkill untuk proyek ini. Contoh nya Untuk kebutuhan menyimpan array favorit dan dua action sederhana seperti add dan remove, Zustand lebih dari cukup tanpa perlu boilerplate yang berlebihan. 
+
+Setelah membandingkan kompleksitas juga fitur dari ke-3 state management saya melihat kalau zustand memiliki karakteristik yang ada diantara context API dan Redux, dimana zustand memiliki fitur quality of life yang membuat state management menjadi lebih mudah dan tidak redundan disaat bersamaan tidak memerlukan setup terlalu kompleks seperti redux dimana bisa menjadi overkill untuk proyek ini. Contoh nya Untuk kebutuhan menyimpan array favorit dan dua action sederhana seperti add dan remove, Zustand lebih dari cukup tanpa perlu boilerplate yang berlebihan.
 
 ### Kelebihan Zustand untuk proyek ini:
+
 Dari tutorial yang saya lihat di internet zustand memiliki setup yang paling simple dan memenuhi untuk proyek ini dimana tidak memerlukan waktu lama untuk mempelajari syntax rumit terlebih dahulu juga tidak memiliki setup template yang terlalu panjang, Tidak perlu Provider wrapper di App.js seperti Context API, cukup import store langsung di komponen yang membutuhkan. jadi minimalis dan simple tapi memiliki fitur yang dibutuhkan untuk proyek skala ini.
 
 ### Kekurangan Zustand:
+
 Dibandingkan dengan redux yang menjadi standar industri, dokumentasi dan dukungan komunitas zustand tidak sebanyak redux, membuat sulit jika menemukan kesulitan spesifik contoh nya state Zustand tidak persist, data favorit akan hilang saat aplikasi di-restart, untuk production app perlu integrasi tambahan seperti AsyncStorage. Mungkin redux memiliki belasan artikel komunitas lebih yang membahas ini dibandingkan zustand.
 
 ---
 
 ## Referensi
+
 API
 https://www.tvmaze.com/api
 https://api.tvmaze.com/shows
@@ -123,10 +132,6 @@ https://reactnavigation.org/docs/hello-react-navigation
 https://dev.to/franklin030601/using-zustand-to-manage-state-in-react-3a8f
 https://www.youtube.com/watch?v=0-S5a0eXPoc
 https://www.tvmaze.com/api#show-index
-
-
-
-
 
 ---
 
