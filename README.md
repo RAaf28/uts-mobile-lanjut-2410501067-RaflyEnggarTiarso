@@ -50,11 +50,11 @@ Scan QR code menggunakan Expo Go di Android atau iOS.
 
 | Screen    | Preview                                  |
 | --------- | ---------------------------------------- |
-| Home      | ![Home](screenshots/Home.jpeg)           |
-| Detail    | ![Detail](screenshots/Detail.jpeg)       |
-| Favorites | ![Favorites](screenshots/Favorites.jpeg) |
-| Search    | ![Search](screenshots/Search.jpeg)       |
-| About     | ![About](screenshots/About.jpeg)         |
+| Home      | ![Home](Screenshots/Home.jpeg)           |
+| Detail    | ![Detail](Screenshots/Detail.jpeg)       |
+| Favorites | ![Favorites](Screenshots/Favorites.jpeg) |
+| Search    | ![Search](Screenshots/Search.jpeg)       |
+| About     | ![About](Screenshots/About.jpeg)         |
 
 ---
 
